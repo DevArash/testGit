@@ -1,0 +1,20 @@
+/* need To learn : git(advance) -> docker -> docker yechizi -> kubernetes */
+/* unsolved with git : 1.branch(have to test) */
+
+git init => create new repo within the project folder
+iinitialize existing project => git init . 
+local git states => 
+	working directory : contains all files and folders for your application.
+	staging area: I DONT REALLY FIND OUT WHAT IS THIS 
+	repository (git folder) :  contains all commited and saved change to the git repository 
+git checkout -- <fileName> => undo changes in file (should use before add file in stage mod)
+git show => show last commit diffrent 
+git log => show log of commits 
+p.n => if you write commit id after git show/log you can see log of specific commit.
+git commit -a -m "MESSAGE" => you can add and then commit in single line
+git config --global alias.<alias name> "<git instruction>" => create new alias
+git config --global --unset alias.<alias name> => remove alias
+git diff commitID1 commitID2 => show diffrent between to commit 
+p.n => HEAD refer to last commit 
+
+	
